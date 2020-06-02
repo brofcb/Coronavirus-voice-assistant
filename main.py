@@ -86,6 +86,7 @@ def get_audio():
         return said.lower()
 
 def main():
+        #Read your api key, project token and run token
         authList = getAPI()
         API_KEY = authList[0].strip()
         PROJECT_TOKEN = authList[1].strip()
